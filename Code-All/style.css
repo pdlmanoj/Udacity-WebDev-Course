@@ -1,0 +1,135 @@
+/* // CSS Boilerplate */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: 0;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* target element and start writing css coding inside {} */
+/* | . - class | # - id |  */
+
+/* div ko  */
+/* understanding width, height */
+
+/* #main{
+    width: 20%;
+    height: 40%;
+    background-color: black;
+} */
+
+/* understanding units, px and % */
+
+/* % - use which take percentage of screen like 100% ko half 50% */
+/* px - fixed value like 25px means it shift 25px down eg code:  */
+
+
+/* understanding margin */
+
+/* #main{
+    width: 90px;
+    height: 80px;
+    background-color: rebeccapurple;
+    margin: 20px;     /* // all side - top, right, button, left 
+    
+}
+    
+    */
+
+
+/* understannding padding */
+
+/* #main{
+    width: 90px;
+    height: 80px;
+    background-color: rebeccapurple;
+    padding: 20px;
+        /*  make 20px space text ko teti chodey rw huncha 20px
+} */
+
+
+/* understanding background image  */
+
+/* #main{
+    background-image: url();
+    background-size: cover; 
+    background-position: button; - top, button, center (kun position image ko rakhney
+} */
+
+
+/* understanding absoulute and relative */
+/* #car1 {
+    width: 100px;
+    height: 120px;
+    background-color: red;
+    /* position: absolute;
+
+} 
+
+*/
+
+/* #car2 {
+    width: 100px;
+    height: 90px;
+    background-color:blue;
+    /* position: absolute; */
+    /* after absolute - we can move it to 
+    top, left, width - work only after position */ 
+    /* top: 10%;
+    left: 40%; 
+
+
+
+} 
+
+*/
+
+
+/* #car3 {
+    width: 130px;
+    height: 110px;
+    background-color: green;
+
+} */
+
+
+/* <!-- understanding flexbox -->
+<!-- Remember, 
+    for width - justifycontent
+for height - allignitem --> */
+
+
+#box{
+    /* parent mha display flex garney; */
+    /* display: flex; - box1, box2, box3 mathi aauchan defult mha stright down mhaa theye  */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    background-color: green;
+
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+
+}
+
+#box2{
+    width: 130px;
+    height: 110px;
+    background-color: blue;
+
+}
+#box3{
+    width: 100px;
+    height: 110px;
+    background-color: rebeccapurple;
+
+}
