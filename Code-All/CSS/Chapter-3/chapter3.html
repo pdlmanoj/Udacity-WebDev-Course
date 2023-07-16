@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter -3</title>
+    <style>
+        button{
+            color: white;
+            background-color: red;
+            border: none;
+            border-radius: 10px;
+        }
+        /* Pseudo-selector */
+        button:active{
+            background-color: green;
+        }
+        button:hover{
+            background-color: orange;
+            cursor: pointer;
+        }
+        input:focus-visible{
+            outline: red 2px solid;
+            border: red 2px solid;
+            outline-offset: 2px;
+        }
+
+        .box{
+            height: 100px;
+            max-width: 200px;
+            background-color: rgb(141, 245, 245);
+        }
+        .text{
+            color: brown;
+            text-align: start;
+            /* text-align: // justify; manage space */
+            text-decoration: underline;
+            text-transform: uppercase;
+            /* text-indent: 20px; */
+            /* letter-spacing: 1.3px; // space betn letter*/
+            background-color: black;
+            /* line-height: 30px ; // take equal spacing top and botton */
+            /* white-space: nowrap; // text wrap hudaina screen size ko aahnu sar  */
+            
+
+
+
+        }
+        /* .text span{
+            color: orange;
+            vertical-align: super;
+        } */
+
+    </style>
+</head>
+<body>
+    <p class="text"> My name is Manoj Paudel </p>
+    <div class="box"></div>
+    <input type="text">
+    <button>Click Me</button>
+
+</body>
+</html>
