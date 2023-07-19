@@ -50,6 +50,7 @@ button:hover{
     background-color: #C9D089;
     cursor: pointer;
     border: 1px solid transparent;
+    
 }
 
 button:active{
@@ -62,10 +63,12 @@ button:active{
 .sun_image{
     display:flex;
     position: relative;
-    left: 100%;
+    left: 80%;
+
 }
 
 .star_image{
     display:flex;
     position: relative;
+
 }
