@@ -16,10 +16,10 @@
     </form> -->
 <!-- -------------Basic Form ------------------- -->
 
-    <form action="">
+    <form action=""> <!-- action batw jaba form sumbit huncha action k garney kunai page mha direct gaarney kii user lai testo rakhna milcha. -->
         <label for="firstName">First Name</label>
         <br>
-        <input id="firstName" name="firstName" type="text">
+        <input id="firstName" name="firstName" type="text" required> <!-- required garec you fill up garnu parcha * -->
         <br>
         <label for="lastName">Last Name</label>
         <br>
@@ -27,7 +27,7 @@
         <br>
         <label for="rollNo">rollNo</label>
         <br>
-        <input id=lrollNo" name="rollNo" type="number">
+        <input id=lrollNo" min="0" max="10" name="rollNo" type="number">
         <p>Select your Gender</p>
         <input type="radio" name="gender" id="Male">
         <label for="Male">Male</label>
@@ -66,8 +66,14 @@
             <option value="Strawberry">
             <option value="Vanilla">
         </datalist>
-        
-        
+        <br>
+        <br>
+        <label for="about">About my self</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+        <br>
+        <br>
+        <button type="reset">Reset</button>
+        <button type="sumbit">Sumbit</button>
  
      
 
