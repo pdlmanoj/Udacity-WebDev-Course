@@ -10,9 +10,14 @@
     
      /* Vertically center gardincha align-item ley */
 
-     /* align-items: center; */
+     /* align-items: center; - most used center in flexbox*/
     /* align-items: flex-end;
     align-items: flex-start; */
+
+    /* flex-wrap: wrap; */
+    /* responsive hudai jancha page - phone ko responsive garau nu milcha */
+    /* flex-flow: column wrap; */
+    
 
     
 
